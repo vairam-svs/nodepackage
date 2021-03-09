@@ -1,0 +1,29 @@
+{
+  "name": "nodepackage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vairam-svs/nodepackage.git"
+  },
+  "keywords": [],
+  "author": "jaydevops <noreply@jaydevops.com> (https://www.jaydevops.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vairam-svs/nodepackage/issues"
+  },
+  "homepage": "https://github.com/vairam-svs/nodepackage#readme",
+  "type": "module",
+  "dependencies": {
+    "awilix": "^4.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
