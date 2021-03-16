@@ -1,4 +1,4 @@
-export default class Users {
+export class Users {
   constructor() {}
   getUserName() {
     return "John Doe";
